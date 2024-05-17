@@ -1,0 +1,1667 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://genome.ucsc.edu/cgi-bin/hgTables
+Subject: Schema for RepeatMasker - Repeating Elements by RepeatMasker
+Date: Tue, 23 Jan 2024 10:50:38 -0600
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--1Dexf3SZYomzXPgfVfdzZnz5muWWtMj5Iy9XghpTwn----"
+
+
+------MultipartBoundary--1Dexf3SZYomzXPgfVfdzZnz5muWWtMj5Iy9XghpTwn----
+Content-Type: text/html
+Content-ID: <frame-B079F164CCF231520C5ACFAFDDA609A5@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://genome.ucsc.edu/cgi-bin/hgTables
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+
+
+=09
+
+<meta http-equiv=3D"Content-Script-Type" content=3D"text/javascript">
+<meta http-equiv=3D"Pragma" content=3D"no-cache">
+<meta http-equiv=3D"Expires" content=3D"-1">
+	<title>Schema for RepeatMasker - Repeating Elements by RepeatMasker	</titl=
+e>
+    <link rel=3D"stylesheet" href=3D"https://genome.ucsc.edu/style/HGStyle.=
+css?v=3D1704737255" type=3D"text/css">
+</head>
+<body class=3D"hgTables cgi">
+<center><div id=3D"warnBox" style=3D"display:none;"><center><b id=3D"warnHe=
+ad"></b></center><ul id=3D"warnList"></ul><center><button id=3D"warnOK"></b=
+utton></center></div></center>
+
+
+
+
+
+<link rel=3D"stylesheet" href=3D"https://genome.ucsc.edu/style/nice_menu.cs=
+s?v=3D1704737255" type=3D"text/css">
+<div id=3D"main-menu-whole">
+
+		<div id=3D"main-menu"><div id=3D"block-nice_menus-1" class=3D"clear-block=
+ block block-nice_menus">
+
+	<div class=3D"upcorner"></div>
+	<div class=3D"blockbg">
+		<div class=3D"blockcontent">
+						<div class=3D"content">
+
+<ul class=3D"nice-menu nice-menu-down sf-js-enabled" id=3D"nice-menu-1">
+
+<li class=3D"first even" id=3D"home"><a href=3D"https://genome.ucsc.edu/ind=
+ex.html"><span id=3D"home-link">Home</span></a></li>=20
+
+<li class=3D"menuparent" id=3D"tools1"><a href=3D"https://genome.ucsc.edu/c=
+gi-bin/hgGateway?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Genomes</=
+a>
+	<ul style=3D"display: none; visibility: hidden;">
+	<li class=3D"first"><a href=3D"https://genome.ucsc.edu/cgi-bin/hgTracks?hg=
+sid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE&amp;db=3Dhg38&amp;position=3D=
+lastDbPos">Human GRCh38/hg38</a></li>
+	<li><a href=3D"https://genome.ucsc.edu/cgi-bin/hgTracks?hgsid=3D1886024258=
+_0WIOT84HjTsbhjVWcgGvITZw5IiE&amp;db=3Dhg19&amp;position=3DlastDbPos">Human=
+ GRCh37/hg19</a></li>
+        <li><a href=3D"https://genome.ucsc.edu/cgi-bin/hgTracks?hgsid=3D188=
+6024258_0WIOT84HjTsbhjVWcgGvITZw5IiE&amp;db=3Dhub_3671779_hs1&amp;position=
+=3DlastDbPos">Human T2T-CHM13/hs1</a></li>
+	<li><a href=3D"https://genome.ucsc.edu/cgi-bin/hgTracks?hgsid=3D1886024258=
+_0WIOT84HjTsbhjVWcgGvITZw5IiE&amp;db=3Dmm39&amp;position=3DlastDbPos">Mouse=
+ GRCm39/mm39</a></li>
+	<li><a href=3D"https://genome.ucsc.edu/cgi-bin/hgTracks?hgsid=3D1886024258=
+_0WIOT84HjTsbhjVWcgGvITZw5IiE&amp;db=3Dmm10&amp;position=3DlastDbPos">Mouse=
+ GRCm38/mm10</a></li>
+	<li><a href=3D"https://hgdownload.soe.ucsc.edu/hubs/">Genome Archive GenAr=
+k</a></li>
+	<li><a href=3D"https://genome.ucsc.edu/cgi-bin/hgTracks?hgsid=3D1886024258=
+_0WIOT84HjTsbhjVWcgGvITZw5IiE&amp;db=3DwuhCor1&amp;position=3DlastDbPos">SA=
+RS-CoV-2 (COVID-19)</a></li>
+	<li class=3D"last"><a href=3D"https://genome.ucsc.edu/cgi-bin/hgGateway?hg=
+sid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Other</a></li>
+        </ul>
+</li>
+
+<li class=3D"menuparent" id=3D"tools2"><a href=3D"https://genome.ucsc.edu/c=
+gi-bin/hgTracks?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Genome Bro=
+wser</a>
+	<ul style=3D"display: none; visibility: hidden;">
+	<li class=3D"first"><a id=3D"configureMenuLink" href=3D"https://genome.ucs=
+c.edu/cgi-bin/hgTracks?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE&amp;=
+hgTracksConfigPage=3Dconfigure">Configure</a></li>
+	<li><a id=3D"trackSearchMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/=
+hgTracks?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE&amp;hgt_tSearch=3D=
+track+search">Track Search</a></li>
+        <!-- OPTIONAL_RECOMMENDED_TRACK_SETS_MENU -->
+	<li><a id=3D"cartResetMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/ca=
+rtReset">Reset All User Settings</a></li>
+        </ul>
+</li>
+
+
+<li class=3D"menuparent" id=3D"tools3"><span>Tools</span>
+	<ul style=3D"display: none; visibility: hidden;">
+	<li class=3D"first"><a id=3D"blatMenuLink" href=3D"https://genome.ucsc.edu=
+/cgi-bin/hgBlat?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE&amp;command=
+=3Dstart">Blat</a></li>
+	<li><a id=3D"ispMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/hgPcr?hg=
+sid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">In-Silico PCR</a></li>
+	<li><a id=3D"tableBrowserMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin=
+/hgTables?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Table Browser</a=
+></li>
+	<li><a id=3D"liftOverMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/hgL=
+iftOver?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">LiftOver</a></li>
+	<li><a id=3D"gsMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/hgNear?hg=
+sid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Gene Sorter</a></li>
+	<li><a id=3D"vaiMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/hgVai?hg=
+sid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Variant Annotation Integrato=
+r</a></li>
+	<li><a id=3D"diMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/hgIntegra=
+tor?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Data Integrator</a></l=
+i>
+	<li><a id=3D"ggMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/hgGenome?=
+hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Genome Graphs</a></li>
+        <li><a title=3D"Explore gene/protein interactions and pathways" id=
+=3D"interactionMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/hgGeneGrap=
+h?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Gene Interactions</a></l=
+i>
+	<li class=3D"last"><a href=3D"https://genome.ucsc.edu/util.html">Other Too=
+ls</a></li>
+	</ul>
+</li>
+<li class=3D"menuparent" id=3D"mirrors"><span>Mirrors</span>
+	<ul style=3D"display: none; visibility: hidden;">
+	<li class=3D"first"><a href=3D"https://genome.ucsc.edu/mirror.html">Euro/A=
+sia Mirrors</a></li>
+	<li><a href=3D"https://genome.ucsc.edu/goldenPath/help/mirror.html">Mirror=
+ing Instructions</a></li>
+	<li id=3D"geoMirrorMenu" class=3D"noHighlight"><hr></li>
+<li id=3D"server1" class=3D"noHighlight">
+<img alt=3D"X" width=3D"16" height=3D"16" style=3D"float:left;" src=3D"http=
+s://genome.ucsc.edu/images/greenChecksmCtr.png">
+US Server</li>
+<li id=3D"server2">
+<img alt=3D"X" width=3D"16" height=3D"16" style=3D"float:left;visibility:hi=
+dden;" src=3D"https://genome.ucsc.edu/images/greenChecksmCtr.png">
+<a href=3D"http://genome-euro.ucsc.edu/cgi-bin/hgGateway?redirect=3Dmanual"=
+>European Server</a></li>
+<li id=3D"server3">
+<img alt=3D"X" width=3D"16" height=3D"16" style=3D"float:left;visibility:hi=
+dden;" src=3D"https://genome.ucsc.edu/images/greenChecksmCtr.png">
+<a href=3D"http://genome-asia.ucsc.edu/cgi-bin/hgGateway?redirect=3Dmanual"=
+>Asian Server</a></li>
+
+	</ul>
+
+</li>
+<li class=3D"menuparent" id=3D"downloads"><span>Downloads</span>
+	<ul style=3D"display: none; visibility: hidden;">
+	<li class=3D"first"><a href=3D"https://hgdownload.soe.ucsc.edu/downloads.h=
+tml">Genome Data</a></li>
+	<li><a href=3D"https://hgdownload.soe.ucsc.edu/downloads.html#source_downl=
+oads">Source Code</a></li>
+  <li><a href=3D"https://genome-store.ucsc.edu/">Genome Browser Store</a></=
+li>
+	<li><a href=3D"https://hgdownload.soe.ucsc.edu/downloads.html#utilities_do=
+wnloads">Utilities</a></li>
+	<li class=3D"last"><a href=3D"https://genome.ucsc.edu/goldenPath/help/ftp.=
+html">FTP</a></li>
+	<li class=3D"last"><a href=3D"https://genome.ucsc.edu/goldenPath/help/mysq=
+l.html">MySQL Access</a></li>
+	<li class=3D"last"><a href=3D"https://genome.ucsc.edu/goldenPath/help/clou=
+d.html">Cloud Access</a></li>
+	<li class=3D"last"><a href=3D"https://genome.ucsc.edu/goldenPath/help/api.=
+html">REST API</a></li>
+	</ul>
+</li>
+<li class=3D"menuparent" id=3D"myData"><span>My Data</span>
+	<ul style=3D"display: none; visibility: hidden;">
+	<li><a id=3D"customTracksMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin=
+/hgCustom?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Custom Tracks</a=
+></li>
+	<li><a id=3D"sessionsMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/hgS=
+ession?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE&amp;hgS_doMainPage=
+=3D1">My Sessions</a></li>
+	<li><a id=3D"trackHubsMenuLink" href=3D"https://genome.ucsc.edu/cgi-bin/hg=
+HubConnect?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Track Hubs</a><=
+/li>
+	<li><a id=3D"customCompositeMenuLink" href=3D"https://genome.ucsc.edu/cgi-=
+bin/hgCollection?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvITZw5IiE">Track Col=
+lection Builder</a></li>
+	<li class=3D"last"><a id=3D"publicSessionsMenuLink" href=3D"https://genome=
+.ucsc.edu/cgi-bin/hgPublicSessions?hgsid=3D1886024258_0WIOT84HjTsbhjVWcgGvI=
+TZw5IiE">Public Sessions</a></li>
+	</ul>
+</li>
+
+<!-- OPTIONAL_VIEW_MENU -->
+
+<!-- OPTIONAL_PROJECT_MENU_START -->
+<li class=3D"menuparent" id=3D"projects"><span>Projects</span>
+	<ul style=3D"display: none; visibility: hidden;">
+	<li class=3D"first"><a href=3D"https://genome.ucsc.edu/gtex.html">Genotype=
+ Tissue Expression (GTEx)</a></li>
+	<li><a href=3D"https://genome.ucsc.edu/ENCODE/index.html">Encyclopedia of =
+DNA Elements (ENCODE)</a></li>
+	<li><a href=3D"https://genome.ucsc.edu/singlecell.html">UCSC Cell Browser<=
+/a></li>
+	<li class=3D"last"><a href=3D"https://genome.ucsc.edu/covid19.html">UCSC C=
+OVID-19 Research</a></li>
+	</ul>
+<!-- OPTIONAL_PROJECT_MENU_END -->
+
+</li><li class=3D"menuparent" id=3D"help"><span>Help</span><ul style=3D"dis=
+play: none; visibility: hidden;">
+<li><a href=3D"https://genome.ucsc.edu/goldenPath/help/hgTablesHelp.html">H=
+elp on Table Browser</a></li>
+<li><a href=3D"https://genome.ucsc.edu/FAQ/">FAQs &amp; Search</a></li>
+<li><a href=3D"https://genome.ucsc.edu/goldenPath/help/hgTracksHelp.html">B=
+rowser Documentation</a></li>
+<li><a href=3D"https://genome.ucsc.edu/training/index.html">Training</a></l=
+i>
+<li><a href=3D"https://genome.ucsc.edu/contacts.html">Contact Us</a></li>
+<li class=3D"last"><a href=3D"http://genomewiki.ucsc.edu/" target=3D"_blank=
+">GenomeWiki</a></li>
+</ul>
+</li>
+
+<li class=3D"menuparent last" id=3D"aboutUs"><span>About Us</span>
+	<ul style=3D"display: none; visibility: hidden;">
+	<li class=3D"first odd"><a href=3D"https://genome.ucsc.edu/goldenPath/news=
+arch.html">News</a></li>
+	<li class=3D"even"><a href=3D"https://genome.ucsc.edu/goldenPath/pubs.html=
+">Publications</a></li>
+	<li class=3D"odd"><a href=3D"http://genome.ucsc.edu/blog/">Blog</a></li>
+	<li class=3D"even"><a href=3D"https://genome.ucsc.edu/cite.html">Cite Us</=
+a></li>
+	<li class=3D"odd"><a href=3D"https://genome.ucsc.edu/goldenPath/credits.ht=
+ml">Credits</a></li>
+	<li class=3D"even"><a href=3D"https://genome.ucsc.edu/goldenPath/releaseLo=
+g.html">Release Log</a></li>
+	<li class=3D"odd"><a href=3D"https://genome.ucsc.edu/staff.html">Staff</a>=
+</li>
+	<li class=3D"even"><a href=3D"https://genome.ucsc.edu/conditions.html">Con=
+ditions of Use</a></li>
+        <li class=3D"odd"><a href=3D"https://genome.ucsc.edu/goldenPath/his=
+tory.html">Our History</a></li>
+        <li class=3D"even"><a href=3D"https://ucscgenomics.soe.ucsc.edu/car=
+eers/" target=3D"_blank">Jobs</a></li>
+        <li class=3D"odd last"><a href=3D"https://genome.ucsc.edu/license/"=
+>Licenses</a></li>
+        <li><a href=3D"https://genome.ucsc.edu/contacts.html">Contact Us</a=
+></li>
+</ul>
+</li>
+
+</ul>
+</div>
+		</div>
+	</div>
+	<div class=3D"downcorner"></div>
+
+</div>
+</div><!-- end main-menu -->
+</div><!-- end main-menu-whole -->
+
+<a name=3D"TOP"></a>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+
+<!-- +++++++++++++++++++++ CONTENT TABLES +++++++++++++++++++ -->
+<tbody><tr><td colspan=3D"3">
+<div id=3D"firstSection"> <!--outer table is for border purposes-->
+ <table width=3D"100%" bgcolor=3D"#888888" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"1"><tbody><tr><td>
+ <table class=3D"hgInside" bgcolor=3D"#FFFEE8" width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td>
+     <div class=3D"subheadingBar"><div class=3D"windowSize" id=3D"sectTtl">
+Schema for RepeatMasker - Repeating Elements by RepeatMasker     </div></di=
+v>
+     <table class=3D"hgInside" bgcolor=3D"#FFFEE8" width=3D"100%" cellpaddi=
+ng=3D"0"><tbody><tr><th height=3D"10"></th></tr>
+     <tr><td width=3D"10">&nbsp;</td><td>
+
+
+
+<b>Database:</b> hg38&nbsp;&nbsp;&nbsp;&nbsp;<b>Primary Table:</b> rmsk&nbs=
+p;&nbsp;&nbsp;&nbsp;<b>Row Count: </b>  5,683,690&nbsp;&nbsp;<b> Data last =
+updated:&nbsp;</b>2022-10-18<br>
+<b>Format description:</b> RepeatMasker .out record<br><b>On download serve=
+r: </b><a href=3D"https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/=
+">MariaDB table dump directory</a><br><!--hTableStart-->
+<table bgcolor=3D"#888888" border=3D"0" cellspacing=3D"0" cellpadding=3D"1"=
+><tbody><tr><td>
+<table border=3D"1" bgcolor=3D"#FFFEE8" cellspacing=3D"0">
+<tbody><tr><th>field</th><th>example</th><th>SQL type</th> <th>description<=
+/th> </tr>
+
+<tr><td><tt>bin</tt></td> <td>585</td><td><tt>smallint(5) unsigned</tt></td=
+> <td>Indexing field to speed chromosome range queries.</td></tr>
+<tr><td><tt>swScore</tt></td> <td>463</td><td><tt>int(10) unsigned</tt></td=
+> <td>Smith Waterman alignment score</td></tr>
+<tr><td><tt>milliDiv</tt></td> <td>13</td><td><tt>int(10) unsigned</tt></td=
+> <td>Base mismatches in parts per thousand</td></tr>
+<tr><td><tt>milliDel</tt></td> <td>6</td><td><tt>int(10) unsigned</tt></td>=
+ <td>Bases deleted in parts per thousand</td></tr>
+<tr><td><tt>milliIns</tt></td> <td>17</td><td><tt>int(10) unsigned</tt></td=
+> <td>Bases inserted in parts per thousand</td></tr>
+<tr><td><tt>genoName</tt></td> <td>chr1</td><td><tt>varchar(255)</tt></td> =
+<td>Genomic sequence name</td></tr>
+<tr><td><tt>genoStart</tt></td> <td>10000</td><td><tt>int(10) unsigned</tt>=
+</td> <td>Start in genomic sequence</td></tr>
+<tr><td><tt>genoEnd</tt></td> <td>10468</td><td><tt>int(10) unsigned</tt></=
+td> <td>End in genomic sequence</td></tr>
+<tr><td><tt>genoLeft</tt></td> <td>-248945954</td><td><tt>int(11)</tt></td>=
+ <td>-#bases after match in genomic sequence</td></tr>
+<tr><td><tt>strand</tt></td> <td>+</td><td><tt>char(1)</tt></td> <td>Relati=
+ve orientation + or -</td></tr>
+<tr><td><tt>repName</tt></td> <td>(TAACCC)n</td><td><tt>varchar(255)</tt></=
+td> <td>Name of repeat</td></tr>
+<tr><td><tt>repClass</tt></td> <td>Simple_repeat</td><td><tt>varchar(255)</=
+tt></td> <td>Class of repeat</td></tr>
+<tr><td><tt>repFamily</tt></td> <td>Simple_repeat</td><td><tt>varchar(255)<=
+/tt></td> <td>Family of repeat</td></tr>
+<tr><td><tt>repStart</tt></td> <td>1</td><td><tt>int(11)</tt></td> <td>Star=
+t (if strand is +) or -#bases after match (if strand is -) in repeat sequen=
+ce</td></tr>
+<tr><td><tt>repEnd</tt></td> <td>471</td><td><tt>int(11)</tt></td> <td>End =
+in repeat sequence</td></tr>
+<tr><td><tt>repLeft</tt></td> <td>0</td><td><tt>int(11)</tt></td> <td>-#bas=
+es after match (if strand is +) or start (if strand is -) in repeat sequenc=
+e</td></tr>
+<tr><td><tt>id</tt></td> <td>1</td><td><tt>char(1)</tt></td> <td>First digi=
+t of id field in RepeatMasker .out file. Best ignored.</td></tr>
+</tbody></table>
+</td></tr></tbody></table>
+<!--hTableEnd-->
+
+	</td><td width=3D"15"></td></tr></tbody></table>
+	</td></tr></tbody></table>
+	</td></tr></tbody></table>
+=09
+</div>
+<div>
+<!-- +++++++++++++++++++++ START NEW SECTION +++++++++++++++++++ -->
+<br>
+
+   <!--outer table is for border purposes-->
+   <table width=3D"100%" bgcolor=3D"#888888" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"1"><tbody><tr><td>
+    <table bgcolor=3D"#FFFEE8" width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0"><tbody><tr><td>
+
+<div class=3D"subheadingBar windowSize">
+Sample Rows     </div>
+     <table bgcolor=3D"#FFFEE8" width=3D"100%" cellpadding=3D"0"><tbody><tr=
+><th height=3D"10"></th></tr>
+     <tr><td width=3D"10">&nbsp;</td><td>
+
+
+<!--hTableStart-->
+<table bgcolor=3D"#888888" border=3D"0" cellspacing=3D"0" cellpadding=3D"1"=
+><tbody><tr><td>
+<table border=3D"1" bgcolor=3D"#FFFEE8" cellspacing=3D"0">
+<tbody><tr><th>bin</th><th>swScore</th><th>milliDiv</th><th>milliDel</th><t=
+h>milliIns</th><th>genoName</th><th>genoStart</th><th>genoEnd</th><th>genoL=
+eft</th><th>strand</th><th>repName</th><th>repClass</th><th>repFamily</th><=
+th>repStart</th><th>repEnd</th><th>repLeft</th><th>id</th></tr><tr><td>585<=
+/td><td>463</td><td>13</td><td>6</td><td>17</td><td>chr1</td><td>10000</td>=
+<td>10468</td><td>-248945954</td><td>+</td><td>(TAACCC)n</td><td>Simple_rep=
+eat</td><td>Simple_repeat</td><td>1</td><td>471</td><td>0</td><td>1</td></t=
+r>
+<tr><td>585</td><td>3612</td><td>114</td><td>215</td><td>13</td><td>chr1</t=
+d><td>10468</td><td>11447</td><td>-248944975</td><td>-</td><td>TAR1</td><td=
+>Satellite</td><td>telo</td><td>-399</td><td>1712</td><td>483</td><td>2</td=
+></tr>
+<tr><td>585</td><td>484</td><td>251</td><td>132</td><td>0</td><td>chr1</td>=
+<td>11504</td><td>11675</td><td>-248944747</td><td>-</td><td>L1MC5a</td><td=
+>LINE</td><td>L1</td><td>-2382</td><td>395</td><td>199</td><td>3</td></tr>
+<tr><td>585</td><td>239</td><td>294</td><td>19</td><td>10</td><td>chr1</td>=
+<td>11677</td><td>11780</td><td>-248944642</td><td>-</td><td>MER5B</td><td>=
+DNA</td><td>hAT-Charlie</td><td>-74</td><td>104</td><td>1</td><td>4</td></t=
+r>
+<tr><td>585</td><td>318</td><td>230</td><td>37</td><td>0</td><td>chr1</td><=
+td>15264</td><td>15355</td><td>-248941067</td><td>-</td><td>MIR3</td><td>SI=
+NE</td><td>MIR</td><td>-119</td><td>143</td><td>49</td><td>5</td></tr>
+<tr><td>585</td><td>18</td><td>232</td><td>0</td><td>19</td><td>chr1</td><t=
+d>15797</td><td>15849</td><td>-248940573</td><td>+</td><td>(TGCTCC)n</td><t=
+d>Simple_repeat</td><td>Simple_repeat</td><td>1</td><td>52</td><td>0</td><t=
+d>6</td></tr>
+<tr><td>585</td><td>18</td><td>137</td><td>0</td><td>0</td><td>chr1</td><td=
+>16712</td><td>16744</td><td>-248939678</td><td>+</td><td>(TGG)n</td><td>Si=
+mple_repeat</td><td>Simple_repeat</td><td>1</td><td>32</td><td>0</td><td>7<=
+/td></tr>
+<tr><td>585</td><td>239</td><td>338</td><td>129</td><td>0</td><td>chr1</td>=
+<td>18906</td><td>19048</td><td>-248937374</td><td>+</td><td>L2a</td><td>LI=
+NE</td><td>L2</td><td>2942</td><td>3104</td><td>-322</td><td>8</td></tr>
+<tr><td>585</td><td>994</td><td>312</td><td>60</td><td>25</td><td>chr1</td>=
+<td>19971</td><td>20405</td><td>-248936017</td><td>+</td><td>L3</td><td>LIN=
+E</td><td>CR1</td><td>2680</td><td>3129</td><td>-970</td><td>9</td></tr>
+<tr><td>585</td><td>270</td><td>331</td><td>7</td><td>27</td><td>chr1</td><=
+td>20530</td><td>20679</td><td>-248935743</td><td>+</td><td>Plat_L3</td><td=
+>LINE</td><td>CR1</td><td>2802</td><td>2947</td><td>-639</td><td>1</td></tr=
+>
+</tbody></table>
+</td></tr></tbody></table>
+<!--hTableEnd-->
+<br><i>Note: all start coordinates in our database are 0-based, not=20
+1-based.  See explanation=20
+<a href=3D"https://genome.ucsc.edu/FAQ/FAQtracks#tracks1">here</a>.</i>
+	</td><td width=3D"15"></td></tr></tbody></table>
+	</td></tr></tbody></table>
+	</td></tr></tbody></table>
+=09
+</div>
+<div>
+<!-- +++++++++++++++++++++ START NEW SECTION +++++++++++++++++++ -->
+<br>
+
+   <!--outer table is for border purposes-->
+   <table width=3D"100%" bgcolor=3D"#888888" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"1"><tbody><tr><td>
+    <table bgcolor=3D"#FFFEE8" width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0"><tbody><tr><td>
+
+<div class=3D"subheadingBar windowSize">
+RepeatMasker (rmsk) Track Description     </div>
+     <table bgcolor=3D"#FFFEE8" width=3D"100%" cellpadding=3D"0"><tbody><tr=
+><th height=3D"10"></th></tr>
+     <tr><td width=3D"10">&nbsp;</td><td>
+
+
+<div style=3D"position:relative; top:-1.2em; margin-bottom:0em;"><h2>Descri=
+ption</h2>
+
+<p>
+This track was created by using Arian Smit's
+<a href=3D"http://www.repeatmasker.org/" target=3D"_blank">RepeatMasker</a>
+program, which screens DNA sequences
+for interspersed repeats and low complexity DNA sequences. The program
+outputs a detailed annotation of the repeats that are present in the
+query sequence (represented by this track), as well as a modified version
+of the query sequence in which all the annotated repeats have been masked
+(generally available on the
+<a href=3D"http://hgdownload.soe.ucsc.edu/downloads.html" target=3D"_blank"=
+>Downloads</a> page). RepeatMasker uses the
+<a href=3D"https://www.girinst.org/repbase/update/index.html" target=3D"_bl=
+ank">Repbase Update</a> library of repeats from the
+<a href=3D"https://www.girinst.org/" target=3D"_blank">Genetic=20
+Information Research Institute</a> (GIRI).
+Repbase Update is described in Jurka (2000) in the References section below=
+.</p>
+
+<p>This track and the masking information in our <a href=3D"https://hgdownl=
+oad.cse.ucsc.edu/goldenpath/hg38/bigZips/" target=3D"_blank">
+    hg38 genome download FASTA files</a> was created in 2010 with the origi=
+nal RepBase library from 2010-03-02 and RepeatMasker 3.0.1.
+Since April 2019, RepBase is under a commercial license, we cannot distribu=
+te
+it or update the track using the RepBase library without a license. Therefo=
+re, and for
+compatibility with past results, given how central the masking is for many =
+other
+annotations, we decided to not update the repeatmasking of hg38. However, y=
+ou can show the
+small differences between the RepeatMasker 3/RepBase from 2010 and RepeatMa=
+sker 4/DFAM
+from 2020 using the track "RepeatMasker Viz" in the same track group. It
+contains two subtracks, one with the old and one with the new data. Also, t=
+hese
+tracks have many more visusalisation options than the original RepeatMasker
+track.
+</p>
+
+<p>However, the last track update time of this track at UCSC is not 2010, b=
+ecause we had to add
+repeatmasking annotations to the rarely used _alt and _fix "patch" sequence=
+s of
+the hg38 genome. The repeatmasking annotations of the main chromosomes were=
+ unaffected
+and have not changed since 2010.
+For more information on genome patches, see our <a href=3D"https://genome-b=
+log.soe.ucsc.edu/blog/2019/02/22/patches/" target=3D"_blank">blog post</a>.
+</p>
+
+<h2>Display Conventions and Configuration</h2>
+
+<p>
+In full display mode, this track displays up to ten different classes of re=
+peats:
+</p><ul>
+<li>Short interspersed nuclear elements (SINE), which include ALUs</li>
+<li>Long interspersed nuclear elements (LINE)</li>
+<li>Long terminal repeat elements (LTR), which include retroposons</li>
+<li>DNA repeat elements (DNA)</li>
+<li>Simple repeats (micro-satellites)</li>
+<li>Low complexity repeats</li>
+<li>Satellite repeats</li>
+<li>RNA repeats (including RNA, tRNA, rRNA, snRNA, scRNA, srpRNA)</li>
+<li>Other repeats, which includes class RC (Rolling Circle)</li>
+<li>Unknown</li>
+</ul>
+<p></p>
+
+<p>
+The level of color shading in the graphical display reflects the amount of
+base mismatch, base deletion, and base insertion associated with a repeat
+element. The higher the combined number of these, the lighter the shading.
+</p>
+
+<p>
+A "?" at the end of the "Family" or "Class" (for example, DNA?) signifies t=
+hat
+the curator was unsure of the classification. At some point in the future,
+either the "?" will be removed or the classification will be changed.</p>
+
+<h2>Methods</h2>
+
+<p>
+Data are generated using the RepeatMasker <em>-s</em> flag. Additional flag=
+s
+may be used for certain organisms.  Repeats are soft-masked. Alignments may
+extend through repeats, but are not permitted to initiate in them.
+See the <a href=3D"https://genome.ucsc.edu/FAQ/FAQdownloads#download16" tar=
+get=3D"_blank">FAQ</a> for more information.
+</p>
+
+<h2>Credits</h2>
+
+<p>
+Thanks to Arian Smit, Robert Hubley and GIRI for providing the tools and
+repeat libraries used to generate this track.
+</p>
+
+<h2>References</h2>
+
+<p>
+Smit AFA, Hubley R, Green P. <em>RepeatMasker Open-3.0</em>.
+<a href=3D"http://www.repeatmasker.org/" target=3D"_blank">
+http://www.repeatmasker.org</a>. 1996-2010.
+</p>
+
+<p>
+Repbase Update is described in:
+</p>
+
+<p>
+Jurka J.
+<a href=3D"https://www.sciencedirect.com/science/article/pii/S0168952500020=
+93X" target=3D"_blank">
+Repbase Update: a database and an electronic journal of repetitive elements=
+</a>.
+<em>Trends Genet</em>. 2000 Sep;16(9):418-420.
+PMID: <a href=3D"https://www.ncbi.nlm.nih.gov/pubmed/10973072" target=3D"_b=
+lank">10973072</a>
+</p>
+
+<p>
+For a discussion of repeats in mammalian genomes, see:
+</p>
+
+<p>
+Smit AF.
+<a href=3D"https://www.sciencedirect.com/science/article/pii/S0959437X99000=
+313" target=3D"_blank">
+Interspersed repeats and other mementos of transposable elements in mammali=
+an genomes</a>.
+<em>Curr Opin Genet Dev</em>. 1999 Dec;9(6):657-63.
+PMID: <a href=3D"https://www.ncbi.nlm.nih.gov/pubmed/10607616" target=3D"_b=
+lank">10607616</a>
+</p>
+
+<p>
+Smit AF.
+<a href=3D"https://www.sciencedirect.com/science/article/pii/S0959437X96800=
+30X" target=3D"_blank">
+The origin of interspersed repeats in the human genome</a>.
+<em>Curr Opin Genet Dev</em>. 1996 Dec;6(6):743-8.
+PMID: <a href=3D"https://www.ncbi.nlm.nih.gov/pubmed/8994846" target=3D"_bl=
+ank">8994846</a>
+</p>
+
+</div>
+	</td><td width=3D"15"></td></tr></tbody></table>
+	</td></tr></tbody></table>
+	</td></tr></tbody></table>
+=09
+</div>
+</td></tr></tbody></table>
+
+
+
+</body></html>
+------MultipartBoundary--1Dexf3SZYomzXPgfVfdzZnz5muWWtMj5Iy9XghpTwn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://genome.ucsc.edu/style/HGStyle.css?v=1704737255
+
+@charset "utf-8";
+
+body { font-family: Arial, Helvetica, sans-serif; background: rgb(255, 249,=
+ 210); }
+
+body.cgi { margin: 0px; padding: 0px; background: rgb(255, 249, 210); }
+
+body.hgTracks { background: url("../../images/internal_bg1.jpg") left botto=
+m repeat-x fixed rgb(249, 249, 247); }
+
+body.training { background: url("../../images/internal_bg1.jpg") left botto=
+m repeat-x fixed rgb(249, 249, 247); }
+
+#searchHelp { display: inline; margin-left: 0.5em; font-size: 80%; }
+
+a:link { color: rgb(18, 30, 154); text-decoration: underline; }
+
+input[type=3D"submit"], input[type=3D"button"], button { border: 1px solid =
+rgba(100, 100, 100, 0.5); border-radius: 3px; margin: 0px; padding-top: 3px=
+; padding-bottom: 3px; background-color: rgb(238, 238, 238); }
+
+input[type=3D"submit"]:hover, input[type=3D"button"]:hover, button:hover { =
+background-color: rgb(232, 232, 232); }
+
+#trackCtrlTable { width: 90%; }
+
+.moveButtonText { font-size: 80%; }
+
+.infoText { font-size: 90%; text-align: center; }
+
+.infoText > input { margin-left: 3px; margin-right: 3px; padding-left: 8px;=
+ padding-right: 8px; }
+
+#patchNote { margin-left: 3em; }
+
+.trackLabelTd { max-width: 14em; vertical-align: top; word-break: break-all=
+; }
+
+.trackDeleteIcon { margin-right: 4px; display: inline; cursor: pointer; }
+
+.controlButtons { margin-bottom: 6px; }
+
+.blueLink { cursor: pointer; color: rgb(18, 30, 154) !important; }
+
+span.link { color: rgb(18, 30, 154); text-decoration: underline; cursor: po=
+inter; }
+
+td.hotkey { font-family: courier; }
+
+pre.code { font-family: Monaco, "andale mono", "lucida console", monospace;=
+ font-size: 0.8em; width: 800px; margin-left: 40px; overflow: auto; backgro=
+und-color: rgb(255, 255, 250); border: 1px dashed rgb(230, 230, 230); color=
+: rgb(17, 17, 17); padding: 5px; }
+
+span.inlineCode { display: inline; font-family: Monaco, "andale mono", "luc=
+ida console", monospace; font-size: 0.9em; }
+
+.topBlueBar { font-family: arial, Geneva, Helvetica, sans-serif; font-size:=
+ 15px; text-decoration: none; font-weight: bold; color: rgb(217, 228, 248);=
+ background-color: rgb(38, 54, 209); border: 1px solid black; height: 28px;=
+ width: 100%; text-align: center; vertical-align: middle; white-space: nowr=
+ap; padding: 0px 10px; }
+
+.topbar { font-family: arial, Geneva, Helvetica, sans-serif; font-size: 15p=
+x; text-decoration: none; font-weight: bold; color: rgb(217, 228, 248); }
+
+.leftbar { text-decoration: none; font-family: arial, sans-serif; color: rg=
+b(253, 252, 234); font-size: 10pt; font-weight: 600; }
+
+.hiddenText { background-color: silver; }
+
+.normalText { background-color: white; }
+
+.topbar { white-space: nowrap; padding: 0px 10px; }
+
+a:link.topbar { text-decoration: none; font-family: arial, Geneva, Helvetic=
+a, sans-serif; color: rgb(224, 240, 240); font-size: 15px; }
+
+a:visited.topbar { text-decoration: none; font-family: arial, Geneva, Helve=
+tica, sans-serif; color: rgb(224, 240, 240); font-size: 15px; }
+
+a:active.topbar { text-decoration: none; font-family: arial, Geneva, Helvet=
+ica, sans-serif; color: rgb(224, 240, 240); font-size: 15px; }
+
+a:hover.topbar { text-decoration: none; font-family: arial, Geneva, Helveti=
+ca, sans-serif; color: rgb(234, 227, 96); font-size: 15px; }
+
+a:link.leftbar { text-decoration: none; font-family: arial, sans-serif; col=
+or: rgb(224, 240, 240); font-size: 10pt; font-weight: 600; }
+
+a:visited.leftbar { text-decoration: none; font-family: arial, sans-serif; =
+color: rgb(224, 240, 240); font-size: 10pt; font-weight: 600; }
+
+a:active.leftbar { text-decoration: none; font-family: arial, sans-serif; c=
+olor: rgb(224, 240, 240); font-size: 10pt; font-weight: 600; }
+
+a:hover.leftbar { text-decoration: none; font-family: arial, sans-serif; co=
+lor: rgb(255, 255, 153); font-size: 10pt; font-weight: 600; }
+
+a:link.ug { text-decoration: none; font-family: arial, sans-serif; color: r=
+gb(136, 136, 136); font-size: 11pt; font-weight: 600; }
+
+a:visited.ug { text-decoration: none; font-family: arial, sans-serif; color=
+: rgb(136, 136, 136); font-size: 11pt; font-weight: 600; }
+
+a:active.ug { text-decoration: none; font-family: arial, sans-serif; color:=
+ rgb(136, 136, 136); font-size: 11pt; font-weight: 600; }
+
+a:hover.ug { text-decoration: none; font-family: arial, sans-serif; color: =
+rgb(136, 136, 136); font-size: 11pt; font-weight: 600; }
+
+a:link.bigBlue { text-decoration: none; font-family: arial, sans-serif; col=
+or: rgb(0, 0, 160); font-size: 16pt; font-weight: 600; }
+
+a:visited.bigBlue { text-decoration: none; font-family: arial, sans-serif; =
+color: rgb(160, 0, 160); font-size: 16pt; font-weight: 600; }
+
+a:active.bigBlue { text-decoration: none; font-family: arial, sans-serif; c=
+olor: rgb(160, 0, 160); font-size: 16pt; font-weight: 600; }
+
+a:hover.bigBlue { text-decoration: none; font-family: arial, sans-serif; co=
+lor: rgb(0, 0, 160); font-size: 16pt; font-weight: 600; }
+
+img.bigBlue { vertical-align: middle; }
+
+td.bigBlue { vertical-align: middle; }
+
+a:link.toc { text-decoration: none; color: rgb(0, 0, 204); }
+
+a:visited.toc { text-decoration: none; color: rgb(0, 0, 204); }
+
+a:active.toc { text-decoration: none; color: rgb(102, 102, 255); }
+
+a:hover.toc { text-decoration: none; color: rgb(102, 102, 255); }
+
+a:link img { border-width: 0px; padding: 0px; margin: 0px; }
+
+a:visited img { border-width: 0px; padding: 0px; margin: 0px; }
+
+a:active img { border-width: 0px; padding: 0px; margin: 0px; }
+
+.redToggleBar { font-weight: bold; color: rgb(255, 255, 255); background-co=
+lor: rgb(255, 0, 0); height: 28px; width: 100%; text-align: center; vertica=
+l-align: middle; white-space: nowrap; }
+
+.blueToggleBar { font-weight: bold; color: rgb(255, 255, 255); background-c=
+olor: rgb(83, 110, 211); height: 28px; width: 100%; text-align: center; ver=
+tical-align: middle; white-space: nowrap; }
+
+.toggleButton { height: 20px; width: 20px; vertical-align: middle; }
+
+.section { background-color: rgb(255, 254, 232); border: 1px solid rgb(136,=
+ 136, 136); margin-bottom: 20px; }
+
+.subsection { padding: 14px 13px 2px 14px; }
+
+.centeredStdTbl { margin: 10px auto; width: 98%; }
+
+.stdTblHead { background-color: rgb(252, 236, 192); }
+
+.subheadingBar { font-weight: bold; font-size: 1.1em; color: rgb(0, 0, 0); =
+background-color: rgb(217, 228, 248); width: 100%; text-align: left; vertic=
+al-align: bottom; white-space: nowrap; text-indent: 10px; padding-top: 2px;=
+ }
+
+p { line-height: 1.2; text-align: left; color: black; margin-left: 0px; }
+
+p.two { line-height: 1.6; text-align: left; color: black; margin-left: 15px=
+; }
+
+p.leftjustify { line-height: 1.2; text-align: left; color: black; margin-le=
+ft: 0px; }
+
+ul { }
+
+table { border: 0px; }
+
+li { line-height: 1.5; }
+
+table.hgcCcds { margin-bottom: 30px; width: 500px; }
+
+table.hgcCcds, table.hgcCcds th, table.hgcCcds td { border: 1px ridge gray;=
+ border-collapse: collapse; text-align: left; vertical-align: top; padding-=
+left: 2px; padding-right: 4px; }
+
+table.hgcCcds th { white-space: nowrap; }
+
+table.hgcCcds td { height: 1em; }
+
+table.hgcCcds thead { background-color: rgb(38, 54, 209); color: rgb(255, 2=
+55, 255); }
+
+table.hgcCcds thead * a { color: rgb(255, 255, 255); }
+
+table.hgcCcds tr.hgcCcdsSub { background-color: rgb(96, 108, 226); color: r=
+gb(255, 255, 255); }
+
+table.hgcCcds tbody { background-color: rgb(208, 255, 208); }
+
+table.hgcCcds caption { caption-side: top; text-align: left; font: medium b=
+old; }
+
+table.omimTbl, table.omimTbl th { width: 90%; table-layout: fixed; }
+
+table.omimTbl, table.omimTbl th, table.omimTbl td { border: 1px solid rgb(1=
+44, 144, 144); border-collapse: collapse; text-align: left; vertical-align:=
+ top; padding: 5px; }
+
+table.omimTbl thead { font-weight: bold; background-color: rgb(255, 250, 21=
+9); }
+
+table.omimTbl tbody { background-color: rgb(255, 250, 219); }
+
+table.hgBlatTable td { text-align: left; }
+
+table.bedExtraTbl, table.bedExtraTbl th { width: 90%; table-layout: fixed; =
+}
+
+table.bedExtraTbl, table.bedExtraTbl th, table.bedExtraTbl td { border: 1px=
+ solid rgb(144, 144, 144); border-collapse: collapse; text-align: left; ver=
+tical-align: top; padding: 5px; }
+
+table.bedExtraTbl td:first-child { width: 200px; font-weight: bold; }
+
+table.bedExtraTbl tbody { background-color: rgb(255, 250, 219); }
+
+.bedExtraTblNote { font-size: small; font-weight: normal; }
+
+.bedExtraTblVal { overflow-wrap: break-word; }
+
+table.transMap, table.transMap th, table.transMap td { border: 3px ridge gr=
+ay; border-collapse: collapse; text-align: right; vertical-align: top; }
+
+table.transMap thead { background-color: rgb(168, 199, 255); text-align: ce=
+nter; }
+
+table.transMap tbody { background-color: rgb(208, 255, 208); }
+
+table.transMap caption { caption-side: top; text-align: left; font: medium =
+bold; }
+
+table.transMapLayout tr td { vertical-align: top; }
+
+tr.transMapLayout { vertical-align: top; }
+
+tr.transMapLeft td { text-align: left; }
+
+.transMapNoWrap { white-space: nowrap; }
+
+.errorBg { background-color: rgb(255, 112, 79); }
+
+.warnBg { background-color: rgb(248, 255, 48); }
+
+table.hgcLsSnp { border: 2px solid black; border-collapse: collapse; white-=
+space: nowrap; }
+
+table.hgcLsSnp td.hgcLsSnpSep { border-right: 2px solid black; border-colla=
+pse: collapse; }
+
+table.hgcLsSnp tr, table.hgcLsSnp td { border: 1px ridge gray; border-colla=
+pse: collapse; text-align: left; vertical-align: top; padding-left: 5px; pa=
+dding-right: 5px; }
+
+table.jsonTable, table.jsonTable td, table.jsonTable td { border: 1px solid=
+ rgb(144, 144, 144); border-collapse: collapse; text-align: left; vertical-=
+align: top; padding: 5px; }
+
+table.jsonTable thead tr td { font-weight: bold; }
+
+label.trackUiHicLabel { font-style: italic; font-size: 0.9em; }
+
+table.trackUiFilterTable { padding: 3px; border-collapse: collapse; border:=
+ none; }
+
+table.trackUiFilterTable tr:first-child td { border-top: 1px solid rgb(204,=
+ 204, 204); padding-top: 8px; }
+
+table.trackUiFilterTable tr:last-child td { border-bottom: 1px solid rgb(20=
+4, 204, 204); padding-bottom: 5px; }
+
+table.trackUiFilterTable tr td:first-child { border-left: 1px solid rgb(204=
+, 204, 204); }
+
+table.trackUiFilterTable tr td:last-child { border-right: 1px solid rgb(204=
+, 204, 204); }
+
+table.trackUiFilterTable td { border-left: 1px solid rgb(204, 204, 204); pa=
+dding-left: 8px; padding-right: 8px; vertical-align: top; }
+
+table.trackUiFilterTable td:first-child { border-left: none; }
+
+table.hgTrackUiScoreFilterTable { border-spacing: 0px; }
+
+table.hgTrackUiScoreFilterTable tr:first-child td { padding-top: 10px; }
+
+table.hgTrackUiScoreFilterTable tr:last-child td { padding-bottom: 10px; }
+
+label.trackUiHicLabelExpand { font-style: italic; font-size: 0.9em; }
+
+img.trackUiHicLabelArrow { transform: rotate(0deg); max-width: 9px; }
+
+img.trackUiHicLabelArrow.open { transform: rotate(90deg); }
+
+div.trackUiHicHiddenAttributes { font-size: 0.9em; display: none; max-heigh=
+t: 10em; max-width: 60em; overflow: scroll; background-color: white; margin=
+-top: 0.5em; margin-bottom: 0.5em; border: thin solid; }
+
+table.groupLists { background-color: rgb(255, 254, 232); width: 50em; }
+
+table.groupLists tr:not(.blueToggleBar):not(.noData) td { border: 1px solid=
+; }
+
+table.chainTbl, .descTbl, .stdTbl { border-collapse: collapse; }
+
+table.chainTbl td, .descTbl td, .descTbl th, .stdTbl td, .stdTbl th { borde=
+r: 1px solid rgb(102, 102, 102); padding: 5px; }
+
+table.descTbl td.number { text-align: right; }
+
+.ghost { background-color: rgb(238, 238, 238); }
+
+.pale { background-color: rgb(248, 248, 248); }
+
+.bgLevel1 { background-color: rgb(255, 254, 232); }
+
+.bgLevel2 { background-color: rgb(255, 249, 210); }
+
+.bgLevel3 { background-color: rgb(252, 236, 192); }
+
+.bgLevel4 { background-color: rgb(238, 213, 183); }
+
+.inputBox { border: 2px inset rgb(204, 204, 204); }
+
+.lineOnTop { border-top: 1px solid rgb(153, 153, 153); }
+
+.lineOnBottom { border-bottom: 1px solid rgb(153, 153, 153); }
+
+.blueRoof { border-top: 2px groove rgb(0, 0, 136); }
+
+.greenRoof { border-top: 3px groove rgb(0, 136, 0); }
+
+.greenBox { border: 5px outset rgb(0, 136, 0); }
+
+.blueBox { border: 4px inset rgb(0, 0, 136); }
+
+.redBox { border: 3px ridge rgb(170, 0, 0); background-color: rgb(255, 249,=
+ 210); padding: 10px; margin: 10px; text-align: left; }
+
+.up45 { text-align: left; vertical-align: middle; width: 20px; margin: 0px;=
+ padding: 10px 3px 0px; white-space: nowrap; position: relative; top: 0.8em=
+; left: -0.4em; transform: rotate(-45deg); transform-origin: 0% 0%; display=
+: none; }
+
+.dn45 { text-align: left; vertical-align: middle; width: 20px; margin: 0px;=
+ padding: 10px 3px 0px; white-space: nowrap; position: relative; top: -1.4e=
+m; transform: rotate(45deg); transform-origin: 0% 100%; display: none; }
+
+a.cv:link { text-decoration: none; }
+
+a.cv:visited { text-decoration: none; }
+
+a.cv:hover { text-decoration: underline; }
+
+a.cv:active { text-decoration: underline; }
+
+.matCell { border: 1px solid rgb(255, 254, 232); }
+
+.hintCol { font-size: 70%; line-height: 80%; border-style: hidden; backgrou=
+nd-color: rgb(255, 249, 210); }
+
+.hintRow { font-size: 70%; line-height: 80%; border-style: hidden; backgrou=
+nd-color: rgb(255, 249, 210); }
+
+.halfVis { opacity: 0.5; }
+
+.waitMask { display: none; cursor: wait; z-index: 9999; position: absolute;=
+ top: 0px; left: 0px; height: 100%; width: 100%; background-color: rgb(255,=
+ 255, 255); }
+
+.inOutButton { height: 24px; width: 24px; border-style: outset; }
+
+div.dragZoom { cursor: text; }
+
+img.sliceImg { position: relative; border: 0px; z-index: 10; }
+
+div.sliceDiv { overflow: hidden; }
+
+div.highlightItem { opacity: 0.7; border-style: none; position: absolute; o=
+verflow: hidden; }
+
+div.loading { position: absolute; opacity: 0.75; z-index: 15; background: u=
+rl("/images/loading.gif") center center no-repeat white; }
+
+#imgTbl map { position: relative; z-index: 11; }
+
+.btn { border-style: outset; background-color: rgb(204, 204, 204); border-c=
+olor: rgb(204, 204, 204); }
+
+.btnN { border-width: 1px; margin: 1px 1px 0px; }
+
+.btnU { border-width: 0px 1px 1px; margin: 0px 1px; }
+
+.btnD { border-width: 1px 1px 0px; margin: 1px 1px 0px; }
+
+.btnL { border-width: 0px 1px; margin: 0px 1px; }
+
+.btnBlue { background-color: rgb(145, 179, 230); }
+
+.inset { border-style: inset; }
+
+.trDrag { background-color: rgb(204, 255, 204); }
+
+.dragHandle { cursor: n-resize; }
+
+.tdLeft { border-right: 1px solid rgb(255, 180, 180); }
+
+.tdRight { border-left: 1px solid rgb(255, 180, 180); }
+
+.blueButtons { background-color: rgb(145, 179, 230); }
+
+.greenRows { background-color: rgb(204, 255, 204); }
+
+table.subtracks { overflow: visible; white-space: nowrap; border: 1px solid=
+ rgb(255, 254, 232); }
+
+table.subtracks table { white-space: normal; }
+
+tr.sortable { background-color: rgb(252, 236, 192); }
+
+th.sortable { color: rgb(0, 0, 255); }
+
+th:hover.sortable { background-color: rgb(204, 255, 204); cursor: pointer; =
+}
+
+tbody.sorting { color: rgb(221, 221, 221); cursor: wait; }
+
+input[type=3D"color"] { padding: 0px; }
+
+.filterBy { display: none; }
+
+.noscript { background: none 0px 0px repeat scroll rgb(255, 255, 144); bord=
+er-color: rgb(207, 207, 207); border-style: solid; border-width: 0px 0px 1p=
+x; color: rgb(47, 47, 47); font-size: 12px; line-height: 1.25; text-align: =
+center; margin: 0px; padding: 0px; }
+
+.noscript .noscript-inner { background: url("/images/caution.gif") 20px 50%=
+ no-repeat scroll transparent; margin: 0px auto; padding: 12px 0px; width: =
+960px; text-align: center; }
+
+.noscript p { margin: 0px; text-align: center; }
+
+.clickable:hover { cursor: pointer; }
+
+.fauxInput { border: 2px inset rgb(204, 204, 204); background-color: rgb(25=
+5, 255, 255); font-size: 10pt; display: inline-block; }
+
+div.disabled { border-color: gray; color: gray; }
+
+input.disabled { opacity: 0.5; }
+
+span.disabled { opacity: 0.5; }
+
+td.disabled { color: gray; }
+
+.positionDisplay { display: inline-block; padding: 3px; border: 1px solid l=
+ightgray; font-size: 90%; }
+
+.positionDisplay:hover { cursor: default; }
+
+.positionInput { padding: 3px; border: 1px solid gray; }
+
+#hgt\.left3, #hgt\.in1, #hgt\.out1 { border-right: 1px solid lightgray; bor=
+der-radius: 3px 0px 0px 3px; }
+
+#hgt\.left2, #hgt\.left1, #hgt\.right1, #hgt\.right2, #hgt\.in2, #hgt\.in3,=
+ #hgt\.out2, #hgt\.out3 { border-right: 1px solid lightgray; border-left: 1=
+px solid lightgray; border-radius: 0px; }
+
+#hgt\.right3, #hgt\.inBase, #hgt\.out4 { border-left: 1px solid lightgray; =
+border-radius: 0px 3px 3px 0px; }
+
+.pennantIconText { text-decoration: none; text-transform: capitalize; font-=
+size: 70%; font-style: italic; font-weight: bold; vertical-align: text-top;=
+ }
+
+.folderIcon { height: 13px; vertical-align: top; }
+
+#tabs { font-size: 100%; margin-top: 5px; }
+
+table.dataTable.compact thead th, table.dataTable.compact thead td { paddin=
+g: 4px 4px 4px 17px !important; }
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.d=
+ataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, =
+table.dataTable thead .sorting_desc_disabled { background-position: left ce=
+nter !important; }
+
+.hubList table { width: 930px; border-collapse: collapse; }
+
+.hubList table tr:first-child th:first-child { border-top-left-radius: 5px;=
+ }
+
+.hubList table tr:first-child th:last-child { border-top-right-radius: 5px;=
+ }
+
+.hubList tbody { font-size: 0.9em; }
+
+.hubList table tr td:first-child { text-align: center; }
+
+.hubList table#unlistedHubsTable tr td:last-child { text-align: center; }
+
+.hubList th, .hubList td { padding: 2px 8px; text-align: left; }
+
+.hubList th { background-color: rgb(229, 223, 177); height: 1.6em; vertical=
+-align: middle; }
+
+.hubList table tbody tr { background-color: rgb(255, 254, 248); }
+
+.selectedRow { background-color: rgb(153, 221, 154) !important; }
+
+.hoverRow { background-color: rgb(253, 255, 183) !important; }
+
+.hubList td { border-top: 1px solid rgb(213, 205, 158); border-bottom: 1px =
+solid rgb(213, 205, 158); }
+
+.centeredCol { text-align: center; }
+
+#addHubBar { background-color: rgb(191, 191, 178); line-height: 2.3em; }
+
+#hubURL { line-height: 0.9em; color: rgb(28, 29, 34); }
+
+.hubList input { margin: 3px; font-size: 0.8em; }
+
+.submitHub { margin: 10px; }
+
+.hubButton { background-color: rgb(255, 255, 255); width: 100px; border-rad=
+ius: 4px; }
+
+.hubDisconnectButton { background-color: rgb(191, 191, 178); width: 100px; =
+border-radius: 4px; }
+
+.tabFooter { font-size: 100%; font-family: Verdana, Arial, sans-serif; }
+
+.tabFooter input { font-size: 0.8em; margin: 7px 0px 7px 3px; }
+
+.tabFooter .small { margin: 2px 40px; font-size: 0.8em; }
+
+.hubError { color: rgb(240, 0, 0); }
+
+.formBox a { text-decoration: none; }
+
+.formBox a:hover { text-decoration: underline; }
+
+.centeredContainer { margin: 0px auto; }
+
+.formBox { width: 400px; border: 2px solid rgb(238, 213, 183); margin-top: =
+2.5em; padding: 0px 30px; border-radius: 4px; background-color: rgb(255, 24=
+9, 210); }
+
+.formBox input { font-size: 1.04em; }
+
+.formBox label { display: block; margin-top: 10px; }
+
+.formBox label.radioLabel { display: inline; margin: 0px; }
+
+#helpBox { margin-top: 20px; padding: 20px 0px 10px; border-top: 1px solid =
+rgb(238, 213, 183); }
+
+label small { font-style: italic; font-size: 0.9em; }
+
+.highlightBox { border: 2px solid; padding: 10px; }
+
+.error { border-color: rgb(255, 0, 0); background-color: rgb(255, 237, 237)=
+; color: rgb(255, 0, 0); }
+
+.confirmationTxt { font-size: 1.2em; font-weight: normal; }
+
+.pmButton { font-size: small; font-weight: bold; text-align: center; font-f=
+amily: courier; color: black; display: inline-block; width: 16px; height: 1=
+6px; vertical-align: top; border-width: 2px; border-style: outset; border-c=
+olor: lightgray darkgray darkgray lightgray; border-image: initial; backgro=
+und-color: rgb(243, 237, 237); cursor: pointer; }
+
+.pmButton:hover { border-bottom-color: darkblue; border-right-color: darkbl=
+ue; color: rgb(0, 0, 170); background-color: rgb(170, 221, 255); }
+
+body.oldStaticPage { background-color: rgb(255, 249, 210); }
+
+body.oldStaticPage .nav { margin: 6px 0px; }
+
+body.oldStaticPage .section h1 { background-color: rgb(217, 228, 248); font=
+-size: 1.1em; padding: 3px 14px; margin: 0px; }
+
+body.oldStaticPage .sectionContent { padding: 0px 14px; }
+
+#hgFindResults { padding: 1em; }
+
+#warnBox { background-color: beige; border: 3px ridge darkred; padding: 10p=
+x; margin: 10px; text-align: left; position: absolute; top: 50%; left: 50%;=
+ transform: translate(-50%, -50%); z-index: 10000; width: 800px; }
+
+#warnHead { color: darkred; }
+
+.notifBox { background-color: beige; border: 1px solid grey; padding: 5px; =
+margin: 5px; text-align: center; }
+
+div.warnDialog { border: 2px solid; }
+
+div.warnDialog .ui-dialog-titlebar { background-color: rgb(255, 133, 102); =
+}
+
+div.warnDialog .ui-dialog-title { font-weight: bold; color: rgb(0, 0, 0); }
+
+div.warnDialog .ui-dialog-content { background-color: rgb(255, 254, 232); f=
+ont-size: 1em; }
+
+div.warnDialog .ui-dialog-buttonpane { border-width: 0px; text-align: cente=
+r; }
+
+div.warnDialog .ui-dialog-buttonset { width: 100%; display: inline-block; }
+
+.centeredImage { text-align: center; margin-top: 0px; margin-bottom: 0px; p=
+adding: 0px; }
+
+table#alleles { font-size: small; }
+
+table#alleles td.topHat { background-color: rgb(252, 236, 192); }
+
+table#alleles tr.allele { text-align: center; }
+
+table#alleles td.pop { text-align: left; }
+
+table#alleles th.ref { text-align: right; }
+
+table#alleles td.ref { text-align: right; }
+
+table#alleles td.var { font-weight: bold; }
+
+table#alleles th.seq { text-align: left; }
+
+table#alleles td.seq { text-align: left; }
+
+div#haplotypes .hilite { opacity: 0.2; position: absolute; background-color=
+: rgb(51, 153, 51); }
+
+div#haplotypes .hiliteSpecial { background-color: rgb(51, 255, 255); }
+
+div#haplotypes input.toggleButton { width: 160px; height: 1.7em; }
+
+div#haplotypes .textOpt { color: rgb(0, 0, 205); }
+
+div#haplotypes .textInfo { color: rgb(0, 102, 0); }
+
+div#haplotypes .textAlert { color: rgb(220, 20, 60); }
+
+.hidden { display: none; }
+
+.readableWidth { width: 50em; }
+
+.hgtaNoGenome { color: gray; }
+
+.ui-autocomplete-category { font-weight: bold; line-height: 1.5; background=
+: lightgray; }
+
+.ui-menu-item { background: white; }
+
+.cgiTitleBox { background-color: rgb(217, 228, 248); padding: 5px; }
+
+.cgiTitle { font-weight: bold; font-size: larger; color: rgb(0, 0, 0); text=
+-align: left; white-space: nowrap; display: inline-block; padding-right: 5p=
+x; }
+
+.cgiContents { margin: 5px; }
+
+.sectionBorder { border: 1px solid gray; margin-top: 5px; }
+
+.sectionPanel { background-color: rgb(255, 254, 232); }
+
+.sectionHeader { background-color: rgb(238, 243, 251); font-weight: bold; c=
+olor: rgb(0, 0, 0); text-align: left; vertical-align: bottom; white-space: =
+nowrap; padding-top: 3px; padding-bottom: 3px; padding-left: 3px; }
+
+.sectionContents { margin: 5px; }
+
+.sectionRow { margin-top: 5px; }
+
+.sectionItem { display: inline-block; padding-right: 5px; }
+
+.subsectionBox { padding: 5px; border: 1px solid black; }
+
+.boldText { font-weight: bold; color: rgb(0, 0, 0); text-align: left; white=
+-space: nowrap; }
+
+a.reactLink { padding-left: 0.3em; padding-right: 0.3em; }
+
+.disabledMessage { padding: 5px; color: gray; font-style: italic; }
+
+.sortHandle:hover { cursor: ns-resize; }
+
+.smallText { font-size: small; }
+
+.floatLeft { float: left; }
+
+.floatRight { float: right; }
+
+.clear { clear: both; }
+
+.absoluteModal { position: absolute; display: inline-block; top: 75px; left=
+: 5%; width: 90%; z-index: 100; background-color: rgb(255, 254, 232); borde=
+r-style: solid; border-width: 2px; border-color: black; overflow: auto; }
+
+.loadingMessage { color: red; font-style: italic; }
+
+.dataSourceSubsection { padding-top: 5px; padding-bottom: 5px; }
+
+img.speciesIcon { width: 50px; height: 50px; border-width: 1px; border-styl=
+e: solid; margin: 5px; }
+
+.speciesButton { display: inline-block; margin-top: 5px; margin-bottom: 5px=
+; text-align: center; }
+
+table.sessionTable tbody tr:hover { background-color: rgb(253, 255, 183) !i=
+mportant; }
+
+a:link img.sessionThumbnail { padding: 5px; }
+
+input[type=3D"submit"].pressed { background: rgb(208, 220, 255); box-shadow=
+: rgba(0, 0, 0, 0.6) 0px 1px 4px inset; text-shadow: rgba(0, 0, 0, 0.2) 0px=
+ -1px 0px; border-radius: 4px; }
+
+input[type=3D"button"].pressed { background: rgb(235, 240, 255); box-shadow=
+: rgba(0, 0, 0, 0.6) 0px 1px 4px inset; text-shadow: rgba(0, 0, 0, 0.2) 0px=
+ -1px 0px; border-radius: 4px; }
+
+.positionDisplay.pressed { background: rgb(235, 240, 255); box-shadow: rgba=
+(0, 0, 0, 0.6) 0px 1px 4px inset; text-shadow: rgba(0, 0, 0, 0.2) 0px -1px =
+0px; border-radius: 4px; }
+
+span.gbSessionLabelPanel { background-color: rgb(224, 224, 224); border-sty=
+le: solid; border-color: rgb(194, 194, 194); border-width: 1px; padding: 1p=
+x 3px 3px; margin-left: 10px; cursor: default; }
+
+span.gbSessionLabelPanel:hover { background-color: rgb(212, 212, 212); }
+
+span.gbSessionLabelText { color: darkblue; }
+
+span.gbSessionChanged { color: darkslategray !important; }
+
+.tbTooltip { display: inline-block; }
+
+.tbTooltipLabel { background: rgb(239, 239, 239); padding: 5px; cursor: poi=
+nter; }
+
+.tbTooltiptext { visibility: hidden; font-style: italic; font-size: smaller=
+; padding: 5px; }
+
+.tbTooltip:hover .tbTooltiptext { visibility: visible; }
+
+.tooltip { visibility: hidden; background-color: rgb(238, 238, 238); color:=
+ black; text-align: left; position: fixed; z-index: 1003; opacity: 0; line-=
+height: 1em; padding: 3px; border: 1px solid black; border-radius: 2px; box=
+-shadow: darkgrey 0px 1px 2px; max-width: 400px; }
+
+.tooltip:hover .tooltiptext { visibility: visible; opacity: 0.9; }
+
+.chainBreak { display: grid; grid-template-columns: max-content max-content=
+; row-gap: 10px; }
+------MultipartBoundary--1Dexf3SZYomzXPgfVfdzZnz5muWWtMj5Iy9XghpTwn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://genome.ucsc.edu/style/nice_menu.css?v=1704737255
+
+@charset "utf-8";
+
+#main-menu-whole { width: 100%; min-width: 1000px; height: 32px; background=
+: rgb(38, 54, 209); font-family: Arial, Helvetica, sans-serif; line-height:=
+ 19px; font-size: 13px; margin: 0px 0px 5px; }
+
+#hgTracks-main-menu-whole { width: 100%; min-width: 1000px; height: 32px; b=
+ackground: rgb(0, 69, 124); font-family: Arial, Helvetica, sans-serif; line=
+-height: 19px; font-size: 13px; margin: 0px 0px 5px; }
+
+#main-menu { margin-left: 30px; }
+
+ul.nice-menu, ul.nice-menu ul { list-style: none; padding: 0px; margin: 0px=
+; border-top: 1px solid rgb(204, 204, 204); }
+
+ul.nice-menu li { border-width: 0px 1px 1px; border-right-style: solid; bor=
+der-bottom-style: solid; border-left-style: solid; border-right-color: rgb(=
+204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color:=
+ rgb(204, 204, 204); border-image: initial; border-top-style: initial; bord=
+er-top-color: initial; float: left; background-color: rgb(238, 238, 238); l=
+ine-height: normal; }
+
+ul.nice-menu a { padding: 0.3em 5px; }
+
+ul.nice-menu ul { top: 1.8em; left: -1px; border-width: 1px 0px 0px; border=
+-right-style: initial; border-bottom-style: initial; border-left-style: ini=
+tial; border-right-color: initial; border-bottom-color: initial; border-lef=
+t-color: initial; border-image: initial; border-top-style: solid; border-to=
+p-color: rgb(204, 204, 204); margin-right: 0px; }
+
+ul.nice-menu ul li { width: 12.5em; }
+
+ul.nice-menu-down { float: left; border: 0px; }
+
+ul.nice-menu-down li { border-top: 1px solid rgb(204, 204, 204); }
+
+ul.nice-menu-down li li { border-top: 0px; }
+
+ul.nice-menu-down ul { left: 0px; }
+
+ul.nice-menu-down ul li { clear: both; }
+
+ul.nice-menu-down li ul li ul { left: 12.5em; top: -1px; }
+
+ul.nice-menu-down .menuparent a { padding-right: 10px; }
+
+ul.nice-menu-down li.menuparent { background: rgb(238, 238, 238); }
+
+ul.nice-menu-down li.menuparent:hover { background: rgb(204, 204, 204); }
+
+ul.nice-menu-down li li.menuparent { background: rgb(238, 238, 238); }
+
+ul.nice-menu-down li li.menuparent:hover { background: rgb(204, 204, 204); =
+}
+
+#header-region ul.nice-menu-down li ul li ul { left: 12.5em; top: -1px; }
+
+#header-region ul.nice-menu-down li.menuparent { background: rgb(238, 238, =
+238); }
+
+#header-region ul.nice-menu-down li.menuparent:hover { background: rgb(204,=
+ 204, 204); }
+
+#header-region ul.nice-menu-down li li.menuparent { background: rgb(238, 23=
+8, 238); }
+
+#header-region ul.nice-menu-down li li.menuparent:hover { background: rgb(2=
+04, 204, 204); }
+
+.block-nice_menus { line-height: normal; z-index: 10; }
+
+ul.nice-menu, ul.nice-menu ul { z-index: 5; position: relative; }
+
+ul.nice-menu li { position: relative; }
+
+ul.nice-menu a { display: block; }
+
+ul.nice-menu ul, #header-region ul.nice-menu ul { position: absolute; visib=
+ility: hidden; }
+
+ul.nice-menu li.over ul { visibility: visible; }
+
+ul.nice-menu ul li { display: block; }
+
+ul.nice-menu::after { content: "."; display: block; height: 0px; clear: bot=
+h; visibility: hidden; }
+
+ul.nice-menu li:hover ul, ul.nice-menu li.menuparent li:hover ul, ul.nice-m=
+enu li.menuparent li.menuparent li:hover ul, ul.nice-menu li.menuparent li.=
+menuparent li.menuparent li:hover ul, ul.nice-menu li.over ul, ul.nice-menu=
+ li.menuparent li.over ul, ul.nice-menu li.menuparent li.menuparent li.over=
+ ul, ul.nice-menu li.menuparent li.menuparent li.menuparent li.over ul, #he=
+ader-region ul.nice-menu li:hover ul, #header-region ul.nice-menu li.menupa=
+rent li:hover ul, #header-region ul.nice-menu li.menuparent li.menuparent l=
+i:hover ul, #header-region ul.nice-menu li.over ul, #header-region ul.nice-=
+menu li.menuparent li.over ul, #header-region ul.nice-menu li.menuparent li=
+.menuparent li.over ul { visibility: visible; }
+
+ul.nice-menu li:hover ul ul, ul.nice-menu li:hover ul ul ul, ul.nice-menu l=
+i:hover li:hover ul ul, ul.nice-menu li:hover li:hover ul ul ul, ul.nice-me=
+nu li:hover li:hover li:hover ul ul, ul.nice-menu li:hover li:hover li:hove=
+r ul ul ul, ul.nice-menu li.over ul ul, ul.nice-menu li.over ul ul ul, ul.n=
+ice-menu li.over li.over ul ul, ul.nice-menu li.over li.over ul ul ul, ul.n=
+ice-menu li.over li.over li.over ul ul, ul.nice-menu li.over li.over li.ove=
+r ul ul ul, #header-region ul.nice-menu li:hover ul ul, #header-region ul.n=
+ice-menu li:hover ul ul ul, #header-region ul.nice-menu li:hover li:hover u=
+l ul, #header-region ul.nice-menu li:hover li:hover ul ul ul, #header-regio=
+n ul.nice-menu li:hover li:hover li:hover ul ul, #header-region ul.nice-men=
+u li:hover li:hover li:hover ul ul ul, #header-region ul.nice-menu li.over =
+ul ul, #header-region ul.nice-menu li.over ul ul ul, #header-region ul.nice=
+-menu li.over li.over ul ul, #header-region ul.nice-menu li.over li.over ul=
+ ul ul, #header-region ul.nice-menu li.over li.over li.over ul ul, #header-=
+region ul.nice-menu li.over li.over li.over ul ul ul { visibility: hidden; =
+}
+
+ul.nice-menu li.menuparent ul, #header-region ul.nice-menu li.menuparent ul=
+ { overflow: visible !important; }
+
+ul.nice-menu li.menuparent ul iframe, #header-region ul.nice-menu li.menupa=
+rent ul iframe { display: block; position: absolute; top: 0px; left: 0px; z=
+-index: -1; width: 20px; height: 20px; }
+
+ul.nice-menu { z-index: 100; }
+
+ul.nice-menu li, ul.nice-menu li.menuparent { background: none; border: non=
+e; }
+
+ul.nice-menu ul, ul.nice-menu li { margin: 0px; padding: 0px; }
+
+ul.nice-menu li { padding-top: 8px; padding-left: 11px; padding-right: 11px=
+; }
+
+ul.nice-menu li.first { padding-left: 0px; }
+
+ul.nice-menu li.last { padding-right: 0px; }
+
+ul.nice-menu a { display: block; color: rgb(240, 241, 249); font-size: 14px=
+; font-weight: lighter; text-decoration: none; padding: 0px 10px 0px 3px; }
+
+ul.nice-menu li.menuparent { padding-top: 8px; }
+
+ul.nice-menu li.menuparent span { color: rgb(240, 241, 249); font-size: 14p=
+x; cursor: pointer; padding: 0px 18px 0px 0px; }
+
+ul.nice-menu a:hover, ul.nice-menu a.active { }
+
+#main-menu ul li.menuparent ul li span { color: rgb(18, 30, 155); backgroun=
+d: none; padding: 2px 10px 0px 3px; }
+
+ul.nice-menu ul { position: absolute; top: 2.5em; left: 10px; margin-right:=
+ 0px; border: 2px solid rgb(245, 245, 245); background: rgb(251, 251, 251);=
+ box-shadow: rgba(60, 60, 60, 0.89) 0px 4px 5px; }
+
+ul.nice-menu ul li { padding: 0px; margin: 0px; border-width: 0px 0px 1px; =
+border-top-style: initial; border-right-style: initial; border-left-style: =
+initial; border-top-color: initial; border-right-color: initial; border-lef=
+t-color: initial; border-image: initial; text-align: left; width: 200px; ba=
+ckground: rgb(251, 251, 251); border-bottom-style: solid; border-bottom-col=
+or: rgb(255, 255, 255); }
+
+span#home-link { top: -2px; position: relative; text-indent: -9999px; heigh=
+t: 18px; width: 23px; display: inline-block; background-image: url("../imag=
+es/homeIconSprite.png"); background-position: 0px -18px; background-color: =
+rgb(38, 54, 209); }
+
+span#hgTracks-home-link { top: -2px; position: relative; text-indent: -9999=
+px; height: 18px; width: 23px; display: inline-block; background-image: url=
+("../images/hgTracksHomeIconSprite.png"); background-position: 0px -18px; b=
+ackground-color: rgb(0, 69, 124); }
+
+span#home-link:hover { background-position: 0px 0px; }
+
+span#hgTracks-home-link:hover { background-position: 0px 0px; }
+
+ul.nice-menu ul li:hover, ul.nice-menu ul li:active { background-color: rgb=
+(50, 125, 228) !important; color: rgb(255, 255, 255) !important; }
+
+ul.nice-menu ul .noHighlight:hover, ul.nice-menu ul li.noHighlight a:hover =
+{ color: rgb(18, 30, 155) !important; background-color: rgb(255, 255, 255) =
+!important; }
+
+ul.nice-menu ul li.inactive span { display: block; background-image: none; =
+background-position: initial; background-size: initial; background-repeat: =
+initial; background-attachment: initial; background-origin: initial; backgr=
+ound-clip: initial; text-align: left; width: 180px; font-size: 13px; font-w=
+eight: bold; font-family: Arial, Helvetica, sans-serif; cursor: default !im=
+portant; color: rgb(204, 204, 204) !important; background-color: rgb(255, 2=
+55, 255) !important; padding: 5px 8px !important; border: 0px !important; }
+
+ul.nice-menu ul li a { margin: 0px; display: inline-block; background: none=
+; text-align: left; padding-left: 8px; padding-right: 0px; width: 160px; fo=
+nt-size: 13px; font-weight: bold; font-family: Arial, Helvetica, sans-serif=
+; color: rgb(18, 30, 155) !important; padding-top: 5px !important; padding-=
+bottom: 5px !important; border: 0px !important; }
+
+ul.nice-menu ul li span { }
+
+ul.nice-menu ul li a:hover, ul.nice-menu ul li a.active { color: rgb(255, 2=
+55, 255) !important; background-color: rgb(50, 125, 228) !important; }
+
+ul.nice-menu li.menuparent li a { padding: 8px 0px 8px 8px; }
+
+ul.nice-menu-down li li.menuparent { background: rgb(255, 255, 255); }
+
+ul.nice-menu-down li li.last { border: none; }
+
+ul.nice-menu-down li.menuparent:hover, ul.nice-menu-down li.over, #header-r=
+egion ul.nice-menu-down li.menuparent:hover, #header-region ul.nice-menu-do=
+wn li.over { background: none; }
+
+ul.nice-menu-down li li.over { background: rgb(255, 255, 255); color: rgb(2=
+55, 255, 255); }
+
+ul.nice-menu-down li li.menuparent:hover { background: rgb(255, 255, 255); =
+color: rgb(255, 255, 255); }
+
+ul.nice-menu-down li li.menu-467:hover { border: none !important; }
+
+ul.nice-menu-down li li.menuparent.active { background: rgb(255, 255, 255);=
+ color: rgb(255, 255, 255); }
+
+ul.nice-menu-down li ul li ul { left: 141px; top: 0px; }
+
+ul.nice-menu li.horizSep { height: 2px; background-color: rgb(221, 221, 221=
+); }
+
+ul.nice-menu li.horizSep:hover { height: 2px; background-color: rgb(221, 22=
+1, 221) !important; }
+
+#main-menu ul li.menuparent ul li span.shortcut { color: rgb(187, 187, 187)=
+; padding: 0px; }
+
+.blueToggleBar { background-color: rgb(0, 69, 124); color: rgb(255, 255, 25=
+5); font-weight: bold; height: 28px; text-align: center; vertical-align: mi=
+ddle; white-space: nowrap; width: 100%; border-top-left-radius: 3px; border=
+-top-right-radius: 3px; }
+
+th.blueToggleBar b { color: rgb(255, 255, 255); }
+
+a:link { color: rgb(18, 30, 154); }
+
+#imgTbl, #chrom { background-color: rgb(255, 255, 255); border: 1px solid r=
+gb(0, 0, 0); border-radius: 2px; }
+
+.sf-menu a.sf-with-ul { padding-right: 2.25em; min-width: 1px; }
+
+.sf-sub-indicator { }
+
+a > .sf-sub-indicator { }
+------MultipartBoundary--1Dexf3SZYomzXPgfVfdzZnz5muWWtMj5Iy9XghpTwn----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://genome.ucsc.edu/images/homeIconSprite.png
+
+iVBORw0KGgoAAAANSUhEUgAAABYAAAAkCAYAAACNBsqdAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AIbACEudwEq8AAABMxJREFUSMellltsFGUUx/9nZrcF
+u9vObul26TYhUrBpV2ANSY1doj4QEjTGCIFIFOKDJmK9RGMwUoSEm0hNqDeMgoZIQMEHMCAx6AMR
+mzSYCNhuF0oJ0uzClpadlpbLXub7+9CWtnSXlvZLTjKTmfM75zvfnP8ZgRHxYsyVm0yb7iodKKyr
+035dszU6ZSwPGQu8usjXubOV3wFSBbKPgj5JqefFE8u7n592v4cJ0zv1q1b+QyBvh4QfDS6QRYBq
+hF1vVmbJzEi7L07TV6PMkrfi7T4Z7mvLBrVM75MatHqAn4jr6oFjByqcOfvC3Zor/3OaxQ1CfV+J
+k70gZgkAlzMdA/DzEMGIeIfbD/tZRKovSNVGlZgPI+JNMfkYyWYqFaFKLYUR8ZI9haR1kkrd6jdr
+9XDOiFLE232ycgWOAOrhGzhXLu7OaLLLt8QG2wmQMwG4AX0v48Xv1dTkW3V12nMUtRMAKCwdueeB
+CGR68UBGtTASjmPHWaBo7R7K6B6jOt5Dywkj4qVKLe335brqZ2jAiHixvZ4+KmsbqS5ZTD4FI+Jl
+KllKWo1ZoUN2iek7C2BEvEzfnqGozpI83MMWgWKimrR+Z7LDCSPiTab4gqKKjQM6aH20ku+y9bR9
+/QecQlp7qazXxeRpGwAGg7BCf1XOB+wnMaGl3vYvaNoNAKGD/hxbMIj0ULvYp4GY6CoavPAvDyVt
+43IROQul/h7o1SpA5mbIWI2rQYY1fRjh1LP+V0NxADjT4H3IhuJGIWZNuKUHyG2DUAAIBGO3BCo8
+ltfYYHLUOwRl8uBxL03LDrZS0VHZieijisMMZ0NEsh9eTFrhS68F7C8C/SUQ8uLoYOqCQB+mDWxA
+sxwdEbyy+vSo4KE9sHfPLhcAMC6cZ/dspA01Z64SvUDrPXMKHbAGnwNAMHg+OWpXmcAjguz2u1mh
+vQKlV4iGmwQSvQivfSKYsCZ8eKGT5QYq7JuFWu7hA1jrL0OtINWUj4o9jb8FZrd05DrOnAisDDUE
+Vu3fEXCMq0GaG+ZVA3iTUD9p7quntq/34fFloLiu/ZEyPSGnU/9ItZXfBFhKAHOrrDiAo1nBoYNF
+DpRMf1kpqRbe+VCbdj3R1+7LzXOwFgLH99uKPxNXx+Ues+g1J+xbhxqUqayl2L8j4IDPtxmCEt31
+52qZdj1Bs2RengP1FEwn4CT0dcosWbzipZyp79fIeoCH+qVC82Q8vH8b5gR0aGsU1GHdZR07+G2O
+bdkyriSwKEu1mnpxrrbAlV9Ms3gGoL9Dyi9yJXXIvzyUFIZuOVmZs0SgL0TK2iKeWDeveW/CLpsI
+Kbu/PokJJDaJq6uXXUW3oed8rICrBRLerqHC7gG08hsIrxJPrJvx6aWwya6xoAOa4SLsnyrTU1X4
+SE5674/YoJG3uznraYGRGPhMOh3sKsylnvvlRJRCqOrFHQsBQKXb12sDOh3DJogxcRFSrsGrlnjU
+abtXBDJnI22A1dJ/o/sJlmV664FkUxT+21CPreKOHRF37MjXu7AFYGTSekxNohs3Ru9K5xtrorqQ
+lycNFmacFg84QYSTmCgjExgBSmvSmSE5PcNPrpaB25lV3eaVaT3NF9PfCGwLBycIhRnGlXZFgEtD
+jaKaNmyxtQC4m8T/QUmpUIr5P48AAAAASUVORK5CYII=
+
+------MultipartBoundary--1Dexf3SZYomzXPgfVfdzZnz5muWWtMj5Iy9XghpTwn----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://genome.ucsc.edu/images/greenChecksmCtr.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBI
+WXMAAABIAAAASABGyWs+AAAACXZwQWcAAAAQAAAAEABcxq3DAAAB4UlEQVRIx+1Tv0vDQBR+ucRc
+yR1SHDoUOrg4CHboZN1EBx26FDr0DxAcNCAupVMdnQTFgjgIgiLi4lRBULrYqcW9BX+E0EDWF2N7
+MecgRRBCFbvpN77v3nvfffcdwF+HMqpBmcz+fiajabaNaNuLi2EIEIYrKwBSArTbrlsquW6p9LWP
+/HZxsXhxUSwSYtsvL7a9sGAYhBhGrcY5IZzn86oqpare3ET1/1pAvf78XK9PTxsGgGFcXQ3qvi+l
+7y8vm+bsrGleX49cQDZ7eprNjo0JIaUQW1uDOqKiIG5uJpPj48nk7W25PD9fLks5MgGVyt1dpaIo
+nY5ldTpnZ5yHIef5/IBnLBZj7Oio1VpdbbV6vWHzIkOYTu/tpdO67rr9vuvOzOi6pun6w4MQhAgx
+MUHp6yul7fan5bGY78/NOc76uuM0Gt+9kBZFdLue1+32epyrKucAiEIg7u4CKApAEFAKQCkAoqoi
+7uzE45TG4/f3jgPgON93NNKBRGJ7O5EoFBgjhLHz86hzQUBpEExOWpZpWtbj40+fNDIDqRRjqdTl
+pecFgedtbHzlEQEQDw+r1aWlavXp6aeLhwpoNtfWms1+nzFNY+z4GPHtDfHgYMB//O+Tk1xuaiqX
+i075P/4xDO8DaMrw0zH48QAAAABJRU5ErkJggg==
+
+------MultipartBoundary--1Dexf3SZYomzXPgfVfdzZnz5muWWtMj5Iy9XghpTwn------
